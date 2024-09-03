@@ -170,8 +170,8 @@ nav{
     text-align: left;
     color: white;
     font-size: 40px;
-    margin-left: 225px;
-    margin-top: 250px;
+    margin-left: 235px;
+    margin-top: 310px;
     margin-bottom: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: normal;
@@ -181,7 +181,7 @@ nav{
     text-align: center;
     font-size: 18px;
     width: 500px;
-    margin-left: 150px;
+    margin-left: 160px;
     color: white;
     line-height: 1.7;
 }
@@ -193,7 +193,7 @@ nav{
     height: 510px;
     width: 350px;
     margin-left: 875px;
-    margin-top: 150px;
+    margin-top: 210px;
     margin-bottom: 0;
 }
 
@@ -205,12 +205,12 @@ nav{
 }
 
 .skillset {
-    font-size: 3.5vw;
+    font-size: 41pt;
     color: white;
     align-items: center;
     justify-content: center;
     padding-top: 120px;
-    padding-left: 300px;
+    padding-left: 150px;
     overflow: hidden;
 
 }
@@ -220,6 +220,7 @@ nav{
     border-radius: 20%;
     margin-top: 25px;
     margin-right: 110px;
+    margin-bottom: 75px;
     height: 200px;
     width: 200px;
     filter: drop-shadow(3px 3px 3px grey);
@@ -229,7 +230,7 @@ nav{
 
 
 .skillset h1{
-    margin-left: 22vw;
+    margin-left: 32vw;
 }
 
 .projects-page {
@@ -237,6 +238,7 @@ nav{
     width: 100vw;
     height: 200%;
     border-top: solid rgba(255, 255, 255, 0.3) 1px;
+    padding-bottom: 5%;
 }
 
 .project-list {
@@ -267,7 +269,7 @@ nav{
 .experience-page {
     background: linear-gradient(to right, #01ff80, #0095ff);
     width: 100%;
-    height: 100vh;
+    height: 125vh;
     border-top: solid rgba(255, 255, 255, 0.3) 1px;
 }
 
@@ -287,22 +289,22 @@ nav{
 
 .experience-card {
     border-radius: 20px;
-    margin-left: 50px;
+    margin-left: 30px;
     margin-top: 75px;
     margin-bottom: -25px;
     margin-right: 0px;
     height: 22vh;
-    width: 40vw;
+    width: 45vw;
     filter: drop-shadow(3px 3px 3px grey);
 }
 
 .experience-card2 {
     border-radius: 20px;
-    margin-left: 27vw;
+    margin-left: 25vw;
     margin-top: 75px;
     margin-right: 0px;
     height: 22vh;
-    width: 40vw;
+    width: 45vw;
     filter: drop-shadow(3px 3px 3px grey);
 }
 
