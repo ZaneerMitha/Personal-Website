@@ -22,7 +22,7 @@ TL;DR:
 <img width="1440" alt="Screenshot 2024-09-09 at 3 49 18 AM" src="https://github.com/user-attachments/assets/741189b8-e1ec-42cb-a1d0-19433b59a5bb">
 <img width="1440" alt="Screenshot 2024-09-09 at 3 49 37 AM" src="https://github.com/user-attachments/assets/8d30c97f-a10d-4972-8a94-6a96b4e80df0">
 <img width="1440" alt="Screenshot 2024-09-09 at 3 50 01 AM" src="https://github.com/user-attachments/assets/97188787-0be2-4224-b08e-090512e93677">
-<img width="1440" alt="Screenshot 2024-09-09 at 3 50 27 AM" src="https://github.com/user-attachments/assets/6ec0868b-582b-4410-b119-e07adbe33881">
+<img width="1440" alt="Screenshot 2024-09-09 at 4 06 27 AM" src="https://github.com/user-attachments/assets/5701444c-f1cb-4988-9ec5-d403b4d947a6">
 
 Responsive Design:
 <img width="1440" alt="Screenshot 2024-09-09 at 3 49 00 AM" src="https://github.com/user-attachments/assets/85c3792b-38b9-4168-a8bc-09a51f510aaf">
