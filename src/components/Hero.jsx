@@ -8,7 +8,7 @@ export function Hero() {
           I’m Zaneer Mitha, a software engineer at Priceline and a Northeastern graduate in Computer Science and Design. Professionally, I focus on front-end and web development. Personally, I have a passion for user experiences, stand-up comedy, and community building.
         </p>
         <div className="hero-actions">
-          <a className="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+          <a className="button button-primary" href="/projects.html">Explore my work <span aria-hidden="true">↓</span></a>
           <a className="text-link" href="#contact">Get in touch</a>
         </div>
       </div>
