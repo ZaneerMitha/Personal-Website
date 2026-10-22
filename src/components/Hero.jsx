@@ -1,5 +1,3 @@
-import portraitUrl from "../../images/ISNPortrait-cutout.png";
-
 export function Hero() {
   return (
     <section className="hero container" id="home" aria-labelledby="hero-title">
@@ -15,7 +13,7 @@ export function Hero() {
         </div>
       </div>
       <div className="hero-portrait-wrap">
-        <img className="hero-portrait" src={portraitUrl} alt="Portrait of Zaneer Mitha" />
+        <img className="hero-portrait" src="/images/ISNPortrait-cutout.png" alt="Portrait of Zaneer Mitha" />
       </div>
     </section>
   );

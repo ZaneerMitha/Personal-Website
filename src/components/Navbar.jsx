@@ -1,14 +1,10 @@
 import { useEffect, useState } from "react";
 import { socials } from "../data/portfolio.js";
-import githubLogo from "../../images/GithubLogo.png";
-import instagramLogo from "../../images/InstagramLogo.png";
-import linkedInLogo from "../../images/LinkedInLogo.png";
-import zmLogoWhite from "../../images/ZMLogoWhite.png";
 
 const socialLogos = {
-  LinkedIn: linkedInLogo,
-  GitHub: githubLogo,
-  Instagram: instagramLogo,
+  LinkedIn: "/images/LinkedInLogo.png",
+  GitHub: "/images/GithubLogo.png",
+  Instagram: "/images/InstagramLogo.png",
 };
 
 const navItems = [
@@ -35,7 +31,7 @@ export function Navbar() {
     <header className="site-header">
       <nav className="nav container" aria-label="Main navigation">
         <a className="brand brand-image" href="/index.html#home" aria-label="Zaneer Mitha, home">
-          <img src={zmLogoWhite} alt="" />
+          <img src="/images/ZMLogoWhite.png" alt="" />
         </a>
         <div id="primary-navigation" className={`nav-links${menuOpen ? " nav-links-open" : ""}`}>
           {navItems.map(([label, href]) => (

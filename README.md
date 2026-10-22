@@ -17,6 +17,7 @@ Edit the portfolio content in `src/data/portfolio.js`:
 - Add or edit skills, projects, experience, social links, and contact details in the exported data.
 - The React components in `src/components/` render that data into accessible cards.
 - The homepage is `index.html`; projects and experience have their own HTML entry pages.
+- Add or replace site images in `public/images/`; this folder is copied into the production build.
 
 The cards use reusable classes in `index.css`. Shared colors, spacing, and layout values are near the top of that file.
 
