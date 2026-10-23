@@ -1,17 +1,8 @@
 import { projects } from "../data/portfolio.js";
 import { SectionHeading } from "./SectionHeading.jsx";
 
-const projectsByDate = [...projects].sort((a, b) => {
-  const dateA = Date.parse(a.date);
-  const dateB = Date.parse(b.date);
-  const hasDateA = Number.isFinite(dateA);
-  const hasDateB = Number.isFinite(dateB);
-
-  if (hasDateA && hasDateB) return dateB - dateA;
-  if (hasDateA) return 1;
-  if (hasDateB) return -1;
-  return 0;
-});
+// Keep sorting independent of browser-specific parsing of display date strings.
+const projectsByDate = [...projects].sort((a, b) => b.sortDate.localeCompare(a.sortDate));
 
 function ProjectCard({ project }) {
   return (

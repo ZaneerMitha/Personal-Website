@@ -19,6 +19,7 @@ export const projects = [
   {
     name: "Faces of the Future",
     date: "October 2025",
+    sortDate: "2025-10",
     logo: "/images/FOTF_Logo.png",
     type: "Web Platform",
     description: "Faces of the Future is a permanent exhibit in the Ismaili Center, Houston. Originally created to present to His Highness Rahim Aga Khan, this interactive art piece displays the stories of the Ismaili Muslim students across the country.",
@@ -28,6 +29,7 @@ export const projects = [
   {
     name: "Semicolon",
     date: "Jan 2025 - Apr 2025",
+    sortDate: "2025-04",
     logo: "/images/SemicolonLogo.png",
     type: "Community platform",
     description: "A space for programmers to connect through Q&A, direct messages, games, and in-platform code execution. The platform supports customizable profiles and saved posts.",
@@ -37,6 +39,7 @@ export const projects = [
   {
     name: "EyeBrowse",
     date: "Jan 2025 - Apr 2025",
+    sortDate: "2025-04",
     logo: "/images/EyeBrowseLogo.png",
     type: "Accessibility",
     description: "A Chrome extension that makes browsing more accessible with color adjustments, readable fonts, text magnification, focus mode, and screen reader support.",
@@ -46,6 +49,7 @@ export const projects = [
   {
     name: "Stroll",
     date: "Sep 2023 - Dec 2023",
+    sortDate: "2023-12",
     logo: "/images/StrollIconWithBG.svg",
     type: "iOS application",
     description: "A daily discovery app that invites people to visit a new local place, build a streak, and share the experience with friends.",
@@ -55,6 +59,7 @@ export const projects = [
   {
     name: "Tuiter",
     date: "Sep 2022 - Dec 2022",
+    sortDate: "2022-12",
     logo: "/images/TuiterLogo.png",
     type: "Social web app",
     description: "A social media website for creating posts, browsing content, and viewing profiles, built with a responsive interface and account features.",
@@ -64,6 +69,7 @@ export const projects = [
   {
     name: "EarBuds",
     date: "Sep 2022 - Dec 2022",
+    sortDate: "2022-12",
     logo: "/images/EarBudsLogo.png",
     type: "Music community",
     description: "A social platform for writing and discovering album reviews, following friends, and exploring music by genre.",
@@ -73,6 +79,7 @@ export const projects = [
   {
     name: "For The Record",
     date: "Jul 2022",
+    sortDate: "2022-07",
     logo: "/images/ForTheRecordLogo.jpg",
     type: "Public art",
     description: "An audiovisual installation created for Ars Electronica in Linz. The piece turns music into animations on a large public display.",
@@ -82,6 +89,7 @@ export const projects = [
   {
     name: "PhotoWorld",
     date: "Jun 2022",
+    sortDate: "2022-06",
     logo: "/images/PhotoworldLogo.png",
     type: "Desktop application",
     description: "A photo editor with a graphical interface and command-line controls for editing and saving images, with RGB histograms and a range of filters.",
@@ -90,6 +98,7 @@ export const projects = [
   {
     name: "FloodIt",
     date: "Sep 2021 - Dec 2021",
+    sortDate: "2021-12",
     logo: "/images/FloodItLogo.png",
     type: "Puzzle game",
     description: "A color puzzle game where players fill the board with one color in as few moves as possible.",
@@ -98,6 +107,7 @@ export const projects = [
   {
     name: "Marble Solitaire",
     date: "Jun 2022",
+    sortDate: "2022-06",
     logo: "/images/MarbleSolitaireLogo.png",
     type: "Command-line game",
     description: "A command-line Peg Solitaire game with English, European, and triangular boards and selectable board sizes.",
