@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useLayoutEffect, useState } from "react";
 import { socials } from "../data/portfolio.js";
 
 const socialLogos = {
@@ -11,6 +11,7 @@ const navItems = [
   ["Home", "/index.html#home"],
   ["Projects", "/projects.html"],
   ["Experience", "/experience.html"],
+  ["Leadership", "/leadership.html"],
 ];
 
 export function Navbar() {
@@ -26,6 +27,39 @@ export function Navbar() {
     window.addEventListener("keydown", closeOnEscape);
     return () => window.removeEventListener("keydown", closeOnEscape);
   }, [menuOpen]);
+
+  useLayoutEffect(() => {
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (reduceMotion) return undefined;
+
+    const isHomePage = Boolean(document.querySelector("#home"));
+    if (isHomePage) document.documentElement.classList.add("home-motion-ready");
+    if (!("IntersectionObserver" in window)) {
+      return () => document.documentElement.classList.remove("home-motion-ready");
+    }
+
+    const targets = document.querySelectorAll(".motion-reveal, .home-section-reveal");
+    if (!targets.length) {
+      return () => document.documentElement.classList.remove("home-motion-ready");
+    }
+
+    document.documentElement.classList.add("motion-ready");
+    const observer = new IntersectionObserver((entries, currentObserver) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+          currentObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: "0px 0px -32px 0px" });
+
+    targets.forEach((target) => observer.observe(target));
+    return () => {
+      observer.disconnect();
+      document.documentElement.classList.remove("motion-ready");
+      document.documentElement.classList.remove("home-motion-ready");
+    };
+  }, []);
 
   return (
     <header className="site-header">

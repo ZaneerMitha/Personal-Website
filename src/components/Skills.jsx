@@ -14,8 +14,8 @@ function SkillCard({ skill, index }) {
 export function Skills() {
   return (
     <section className="section section-skills" id="skills" aria-labelledby="skills-title">
-      <div className="container">
-        <SectionHeading eyebrow="The toolkit" title="Skills & strengths" id="skills-title" description="A mix of technical tools and the ways I like to work." />
+      <div className="container home-section-reveal">
+        <SectionHeading eyebrow="The toolkit" title="Skills & strengths" id="skills-title" description="A mix of technical tools and the ways I like to work." reveal={false} />
         <div className="skills-grid">
           {skills.map((skill, index) => <SkillCard key={skill.name} skill={skill} index={index} />)}
         </div>

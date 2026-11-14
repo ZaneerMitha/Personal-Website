@@ -24,13 +24,13 @@ export function Contact() {
 
   return (
     <section className="contact-section" id="contact" aria-labelledby="contact-title">
-      <div className="container contact-layout">
-        <div className="contact-copy">
+      <div className="container contact-layout home-section-reveal">
+      <div className="contact-copy">
           <p className="eyebrow">Want to chat?</p>
           <h2 id="contact-title">Let’s get connected!</h2>
           <p>I’m always glad to talk about product, design, software, comedy, leadership, or anything else!.</p>
         </div>
-        <div className="contact-cards">
+      <div className="contact-cards">
           <button className="contact-card" type="button" onClick={copyEmail} aria-label="Copy email address">
             <span className="contact-label">Email</span>
             <strong>{contact.email}</strong>

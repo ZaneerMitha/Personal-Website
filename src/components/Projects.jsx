@@ -6,7 +6,7 @@ const projectsByDate = [...projects].sort((a, b) => b.sortDate.localeCompare(a.s
 
 function ProjectCard({ project }) {
   return (
-    <article className="project-card">
+    <article className="project-card motion-reveal">
       <div className="project-card-top">
         <span className="project-date">{project.date}</span>
         <span className="project-type">{project.type}</span>

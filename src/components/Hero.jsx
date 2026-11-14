@@ -1,3 +1,6 @@
+import { ProjectsTicker } from "./ProjectsTicker.jsx";
+import { HeroDoodles } from "./HeroDoodles.jsx";
+
 export function Hero() {
   return (
     <section className="hero container" id="home" aria-labelledby="hero-title">
@@ -14,7 +17,9 @@ export function Hero() {
       </div>
       <div className="hero-portrait-wrap">
         <img className="hero-portrait" src="/images/ISNPortrait-cutout.png" alt="Portrait of Zaneer Mitha" />
+        <HeroDoodles />
       </div>
+      <ProjectsTicker />
     </section>
   );
 }

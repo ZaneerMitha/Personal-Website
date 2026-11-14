@@ -3,7 +3,7 @@ import { SectionHeading } from "./SectionHeading.jsx";
 
 function ExperienceCard({ item, index }) {
   return (
-    <article className="experience-card">
+    <article className="experience-card motion-reveal">
       <div className="experience-meta">
         <span>{item.dates}</span>
         <span className="experience-mark">{String(index + 1).padStart(2, "0")}</span>
