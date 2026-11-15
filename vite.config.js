@@ -5,7 +5,8 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      input: ["index.html", "projects.html", "experience.html", "leadership.html"],
+      // Leadership is temporarily disabled for deployment; keep its source files for later.
+      input: ["index.html", "projects.html", "experience.html"],
     },
   },
 });

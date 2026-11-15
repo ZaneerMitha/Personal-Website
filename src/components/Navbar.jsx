@@ -11,7 +11,8 @@ const navItems = [
   ["Home", "/index.html#home"],
   ["Projects", "/projects.html"],
   ["Experience", "/experience.html"],
-  ["Leadership", "/leadership.html"],
+  // Leadership is temporarily hidden until it is ready to be redeployed.
+  // ["Leadership", "/leadership.html"],
 ];
 
 export function Navbar() {
